@@ -2,10 +2,9 @@ body, html {
   height: 100%
 }
 
-@font-face {
-  font-family: "myfont";
-  src: url("TechnicBoldRegular.ttf") format("truetype");
-}
+@import url(//db.onlinewebfonts.com/c/1b78020c6c377b086cfa151895e1c98b?family=TechnicBold);
+
+@font-face {font-family: "myfont"; src: url("//db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.eot"); src: url("//db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.woff") format("woff"), url("//db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.svg#TechnicBold") format("svg"); }
 
 .bgimg {
   /* Background image */
@@ -20,7 +19,7 @@ body, html {
   /* Add a white text color to all elements inside the .bgimg container */
   color: white;
   /* Add a font */
-  font-family: myfont, Courier, monospace;
+  font-family: "myfont", Courier, monospace;
   /* Set the font-size to 25 pixels */
   font-size: 30px;
   letter-spacing: 3px;
