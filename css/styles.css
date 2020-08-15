@@ -4,7 +4,6 @@ body, html {
 
 .bgimg {
   /* Background image */
-  background-color: black;
   /* Full-screen */
   height: 100%;
   /* Center the background image */
@@ -22,6 +21,8 @@ body, html {
   letter-spacing: 3px;
 }
 
+
+
 /* Position text in the top-left corner */
 .topleft {
   position: absolute;
@@ -36,6 +37,15 @@ body, html {
   left: 16px;
 }
 
+.bottommiddle {
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
 /* Position text in the middle */
 .middle {
   position: absolute;
@@ -47,6 +57,19 @@ body, html {
 
 /* Style the <hr> element */
 hr {
-  margin: auto;
   width: 50%;
 }
+
+.example_b {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #E6543B;
+padding: 20px;
+border-radius: 240px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.button1 {font-size: 30px;}
