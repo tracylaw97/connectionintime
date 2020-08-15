@@ -2,7 +2,7 @@ body, html {
   height: 100%
 }
 
-@font-face {font-family: "TechnicBold";
+@font-face {font-family: "myfont";
     src: url("https://db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.eot"); /* IE9*/
     src: url("https://db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("https://db.onlinewebfonts.com/t/1b78020c6c377b086cfa151895e1c98b.woff2") format("woff2"), /* chrome firefox */
