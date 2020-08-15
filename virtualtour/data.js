@@ -131,7 +131,7 @@ var APP_DATA = {
           "yaw": 1.990127587277959,
           "pitch": -0.0337748036108767,
           "title": "The Future is Here",
-          "text": "People are busy climbing the ladder on going forward, but we forget to live in the moment. Right now, the time forces us to \"take a break,\" reflect on ourselves, and take care of other humankind."
+          "text": "People are busy climbing the ladder on going forward, but we forget to live in the moment. Right now, the time forces us to \"take a break,\" reflect on ourselves, and take care each other by staying inside."
         }
       ]
     },
@@ -298,7 +298,14 @@ var APP_DATA = {
         "pitch": -1.372459769961159,
         "fov": 0.6521312022348882
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.557457535540755,
+          "pitch": -1.140634165911024,
+          "rotation": 1.5707963267948966,
+          "target": "7-the-new-normal"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 2.679430758817624,
@@ -391,8 +398,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 1.726336753175696,
-          "pitch": 0.11313954420992367,
+          "yaw": 1.7323478589970387,
+          "pitch": 0.09285623381268593,
           "title": "Introduction of The Future Pods",
           "text": "The future is here! The Future Pod is a new platform for people to engage freely without physical contact."
         }
@@ -436,8 +443,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 2.2910702577448667,
-          "pitch": 0.19026150730154257,
+          "yaw": 2.290995559114183,
+          "pitch": 0.1807303471557251,
           "title": "The Future Pods",
           "text": "The Pods are a communication platform composed of two technological pods facing each other. This is a new design solution for socializing."
         }
@@ -481,8 +488,8 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": 2.0632381150798924,
-          "pitch": 0.385608650695314,
+          "yaw": 2.096053769685841,
+          "pitch": 0.3780095317440093,
           "title": "The Future Pods",
           "text": "Please click the arrow to experience the pod."
         }
