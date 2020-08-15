@@ -2,6 +2,11 @@ body, html {
   height: 100%
 }
 
+@font-face {
+  font-family: "myfont";
+  src: url("TechnicBoldRegular.ttf") format("truetype");
+}
+
 .bgimg {
   /* Background image */
   /* Full-screen */
@@ -15,7 +20,7 @@ body, html {
   /* Add a white text color to all elements inside the .bgimg container */
   color: white;
   /* Add a font */
-  font-family: "TechnicBold", Courier, monospace;
+  font-family: myfont, Courier, monospace;
   /* Set the font-size to 25 pixels */
   font-size: 30px;
   letter-spacing: 3px;
